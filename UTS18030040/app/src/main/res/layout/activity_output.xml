@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Output">
+    <!--membuat layout text UJIAN TENGAH SEMESTER-->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="303dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="UJIAN TENGAH SEMESTER"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+    <!--membuat layout text SEMESTER GENAP 2020/2021-->
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="SEMESTER GENAP 2020/2021"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+    <!--membuat layout text INSTITUT TEKNOLOGI DIRGANTARA ADISUTJIPTO-->
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="INSTITUT TEKNOLOGI DIRGANTARA ADISUTJIPTO"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+    <!--membuat layout text PROGRAM STUDI-->
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="PROGRAM STUDI"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
+    <!--membuat layout text dimana setelah user mengisi program studi pada halaman 2 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_programstudi"
+        android:layout_width="216dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
+    <!--membuat layout text Nama Mahasiswa-->
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="146dp"
+        android:layout_height="36dp"
+        android:text="Nama Mahasiswa"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+    <!--membuat layout text NIM Mahasiswa-->
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="152dp"
+        android:layout_height="28dp"
+        android:text="NIM Mahasiswa"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+    <!--membuat layout text Matakuliah-->
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="156dp"
+        android:layout_height="35dp"
+        android:text="Matakuliah"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+    <!--membuat layout text SKS-->
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="138dp"
+        android:layout_height="43dp"
+        android:text="SKS"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.07" />
+    <!--membuat layout text Dosen Pengampu-->
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="154dp"
+        android:layout_height="32dp"
+        android:text="Dosen Pengampu"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+    <!--membuat layout text Tanggal Pelaksanaan-->
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:text="Tanggal Pelaksanaan"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+    <!--membuat layout text Kelas-->
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:text="Kelas"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+    <!--membuat layout text dimana setelah user mengisi nama mahasiswa pada halaman 1 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_nama"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+    <!--membuat layout text dimana setelah user mengisi NIM pada halaman 1 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_nim"
+        android:layout_width="177dp"
+        android:layout_height="31dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+    <!--membuat layout text dimana setelah user mengisi matakuliah pada halaman 2 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_matakuliah"
+        android:layout_width="156dp"
+        android:layout_height="34dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+    <!--membuat layout text dimana setelah user mengisi sks pada halaman 2 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_sks"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+    <!--membuat layout text dimana setelah user mengisi dosen pengampu pada halaman 2 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_dosen"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+    <!--membuat layout text dimana setelah user mengisi tanggal pada halaman 2 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_tanggal"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+    <!--membuat layout text dimana setelah user mengisi kelas pada halaman 1 maka akan tertampil pada halaman 3-->
+    <TextView
+        android:id="@+id/tampilan_kelas"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+</androidx.constraintlayout.widget.ConstraintLayout>
